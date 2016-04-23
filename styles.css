@@ -1,0 +1,26 @@
+body
+{
+	font-family: comic sans ms, verdana, arial;
+	font-size:14px;
+	color:white;
+	background-color: #0B0503;
+}
+
+td.menuLink
+{
+	color: #FAE7A4;
+}
+
+a.menuLink, a.menuLink:visited
+{
+	color:#FAE7A4;
+	text-decoration: none;
+	font-style:italic;
+}
+
+a.menuLink:hover
+{
+	color:#FAE7A4;
+	text-decoration:underline;
+	font-style:italic;
+}

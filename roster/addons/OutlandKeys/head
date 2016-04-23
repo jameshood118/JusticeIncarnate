@@ -1,0 +1,15 @@
+/******************************
+ * Outland Key listing
+ * Addon for Wowroster.com
+ * Based on memberinst.php by zanix
+ *
+ ******************************
+ *
+ * $Id: OutlandKeys/index.php 19 2007-03-04 00:08:26Z SartriX $
+ *
+ ******************************/
+
+$versions['versionDate']['outlandkeys'] = '$Date: 2007/03/04 $';
+$versions['versionRev']['outlandkeys'] = '$Revision: 1.0.0 $';
+$versions['versionAuthor']['outlandkeys'] = '$Author: SartriX, zanix $';
+

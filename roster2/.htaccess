@@ -1,0 +1,16 @@
+# WoWRoster .htaccess file
+# $Id: .htaccess 1254 2007-08-19 16:41:28Z Zanix $
+
+# ONLY IF MOD_REWRITE IS INSTALLED
+<IfModule mod_rewrite.c>
+	# ENABLE ENGINE
+	RewriteEngine On
+
+	# CONIDITIONS
+	RewriteCond %{REQUEST_FILENAME} -f [OR]
+	RewriteCond %{REQUEST_FILENAME} -d
+
+	# REWRITE RULES
+	RewriteRule ^(.+) - [PT,L]
+	RewriteRule ^(.*) index.php
+</IfModule>
